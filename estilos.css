@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(212, 210, 210, 0.725);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    background-color: whitesmoke;
+}
+
+.contenedor{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    margin: 50px auto ;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo h2{
+    width: 650px;
+}
+
+.titulo p{
+    color: gainsboro;
+}
+
+.imagen{
+    display: block;
+}
+
+.imagen img{
+    width: 100%;
+    height: 340px;
+}
+
+.imagen p{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 13px;
+}
